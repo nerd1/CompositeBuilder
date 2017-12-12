@@ -45,7 +45,7 @@ public class CommentRatioCompositeVisitorTest {{
 
       visitor.acceptAll(node);
 
-      expect(visitor.getPercentageOfComments()).toEqual(50.0);
+      expect(visitor.getPercentageOfComments()).toEqual(52.0);
     });
   });
 }}

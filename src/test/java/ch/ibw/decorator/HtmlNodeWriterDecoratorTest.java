@@ -33,7 +33,7 @@ public class HtmlNodeWriterDecoratorTest {{
                                  "2  <A href='about:blank1'>\n" +
                                  "3   <SPAN></SPAN>\n" +
                                  "4  </A>\n" +
-                                 "5  <A href='about:blank2'></A>\n" +
+                                 "5  <A href='about:blank'></A>\n" +
                                  "6 </HTML>");
     });
   });
