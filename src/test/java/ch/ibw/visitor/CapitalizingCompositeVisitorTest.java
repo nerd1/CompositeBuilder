@@ -24,7 +24,7 @@ public class CapitalizingCompositeVisitorTest {{
 
       expect(node.name).toEqual("ROOT");
       expect(((HtmlNode)node.children.get(0)).name).toEqual("SPAN");
-      expect(((HtmlNode)node.children.get(0).children.get(0)).name).toEqual("DIV");
+      expect(((HtmlNode)node.children.get(0).children.get(0)).name).toEqual("DIVDIV");
     });
   });
 }}

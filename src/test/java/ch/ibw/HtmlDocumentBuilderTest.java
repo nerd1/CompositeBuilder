@@ -44,7 +44,7 @@ public class HtmlDocumentBuilderTest {{
       builder.setRoot(node);
 
       String html = builder.generateHtml();
-      expect(html).toEqual("<node></node>");
+      expect(html).toEqual("<node></node></>");
     });
 
     it("should be possible to build a single node with single attributes", () -> {
